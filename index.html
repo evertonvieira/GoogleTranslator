@@ -7,8 +7,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
   <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
+  <link rel="stylesheet" href="stylesheets/styles.css" media="screen">
   <link rel="stylesheet" href="stylesheets/pygment_trac.css">
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  <script type="text/javascript" src="javascripts/tradutor.js"></script>
+
   <script type="text/javascript" src="javascripts/script.js"></script>
 
   <title>Google translator</title>
@@ -47,6 +51,32 @@ Jquery: js/jquery-1.11.1.min.js</p>
 
 <p>Para adicionar a tradução, basta adicionar o código abaixo e customizar de acordo com suas necessidades:</p>
 
+
+<p>Demo:</p>
+
+<div class="language">
+			<div style="display:none;" id="google_translate_element"></div>
+			<ul class="nav-language">
+				<li><a href="javascript:void(0)" class="pt" onclick="ChangeLang('pt')" title="Traduzir para portugu&ecirc;s"><img src="images/portugues.gif" border="0" alt="Portugues" /></a></li>
+				<li><a href="javascript:void(0)" class="en" onclick="ChangeLang('en')" title="Translate to English"><img src="images/english.gif" border="0" alt="English" /></a></li>
+				<li><a href="javascript:void(0)" class="es" onclick="ChangeLang('es')" title="Traducir al espa&ntilde;ol"><img src="images/espanol.gif" border="0" alt="Spanish" /></a></li>
+			</ul>
+		</div>
+
+		<div class="content">
+			<h1>O que é Lorem Ipsum?</h1>
+			<p>
+				Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e
+				vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e
+				os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos,
+				como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.
+				Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum,
+				e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus
+				PageMaker.
+			</p>
+		</div>
+
+
 <div>
             <div id="google_translate_element"></div>
 
@@ -78,6 +108,6 @@ Jquery: js/jquery-1.11.1.min.js</p>
     <p class="name"></p>
   </div>
 
-  
+
 </body>
 </html>
