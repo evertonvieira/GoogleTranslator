@@ -9,7 +9,7 @@ API do Google: //translate.google.com/translate_a/element.js?cb=googleTranslateE
 Função da tradução: js/tradutor.js
 
 
-para adicionar a tradução do google basta adicionar o código abaixo:
+Para adicionar a tradução, basta adicionar o código abaixo e customizar de acordo com suas necessidades:
 
 <div class="language">
 			<div style="display:none;" id="google_translate_element"></div>
