@@ -3,13 +3,13 @@ Usando a tradução do Google customizada no site.
 
 Chamando scripts
 Jquery
-	<script type="text/javascript" src="js/jquery-1.11.1.min.js" language="javascript"></script>
+<script type="text/javascript" src="js/jquery-1.11.1.min.js" language="javascript"></script>
 
 API do Google
-	<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 Função da tradução
-	<script type="text/javascript" src="js/tradutor.js"></script>
+<script type="text/javascript" src="js/tradutor.js"></script>
 
 
 para adicionar a tradução do google basta adicionar o código abaixo:
