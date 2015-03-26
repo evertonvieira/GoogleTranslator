@@ -1,0 +1,35 @@
+
+/*
+ * LANGUAGE
+*/
+.language{
+	display:block;
+	width:200px;
+	margin: 0 auto;
+}
+.language ul{
+	list-style:none;
+}
+.language ul li{
+	float:left;
+	margin:5px;
+}
+
+.content{
+	width:700px;
+	margin:0 auto;
+	clear: both;
+	padding:20px 0px;
+}
+
+
+#artitleTranslate, #goog-gt-tt, #customTranslate, .goog-te-banner-frame {
+ display: none !important;
+}
+.goog-text-highlight{
+	background:none !important;
+	box-shadow:none !important;
+}
+.goog-te-banner-frame.skiptranslate {display: none !important;}
+body { top: 0px !important; }
+
