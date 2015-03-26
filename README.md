@@ -2,14 +2,11 @@
 Usando a tradução do Google customizada no site.
 
 Chamando scripts
-Jquery
-<script type="text/javascript" src="js/jquery-1.11.1.min.js" language="javascript"></script>
+Jquery: js/jquery-1.11.1.min.js
 
-API do Google
-<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+API do Google: //translate.google.com/translate_a/element.js?cb=googleTranslateElementInit
 
-Função da tradução
-<script type="text/javascript" src="js/tradutor.js"></script>
+Função da tradução: js/tradutor.js
 
 
 para adicionar a tradução do google basta adicionar o código abaixo:
