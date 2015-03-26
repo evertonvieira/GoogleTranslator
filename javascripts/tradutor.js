@@ -12,13 +12,13 @@ function ChangeLang(a) {
 			b = "alem";
 			break;
 		case 'es':
-			b = "Spanish";
+			b = "spanish";
 			break;
 		case 'fr':
 			b = "fran";
 			break;
 		case 'en':
-			b = "English";
+			b = "english";
 			break;
 		case 'it':
 			b = "italiano";
