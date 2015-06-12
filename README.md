@@ -1,16 +1,23 @@
 # google_translator
 Usando a tradução do Google customizada no site.
 
-Chamando scripts
+Chamando scripts:
+```bash
 Jquery: js/jquery-1.11.1.min.js
+```
+API do Google: 
+```bash
+//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit
+```
 
-API do Google: //translate.google.com/translate_a/element.js?cb=googleTranslateElementInit
-
-Função da tradução: js/tradutor.js
-
+Função da tradução: 
+```bash
+js/tradutor.js
+```
 
 Para adicionar a tradução, basta adicionar o código abaixo e customizar de acordo com suas necessidades:
 
+```bash
 <div class="language">
 			<div style="display:none;" id="google_translate_element"></div>
 			<ul class="nav-language">
@@ -19,3 +26,4 @@ Para adicionar a tradução, basta adicionar o código abaixo e customizar de ac
 				<li><a href="javascript:void(0)" class="es" onclick="ChangeLang('es')" title="Traducir al espa&ntilde;ol"><img src="img/espanol.gif" alt="Spanish" /></a></li>
 			</ul>
 		</div>
+```
