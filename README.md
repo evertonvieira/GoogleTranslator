@@ -1,5 +1,5 @@
 # google_translator
-Usando a tradução do Google customizada no site.
+Customizando os botões de tradução do Google.
 
 Chamando scripts:
 ```bash
@@ -9,14 +9,11 @@ API do Google:
 ```bash
 //translate.google.com/translate_a/element.js?cb=googleTranslateElementInit
 ```
-
 Função da tradução: 
 ```bash
 js/tradutor.js
 ```
-
-Para adicionar a tradução, basta adicionar o código abaixo e customizar de acordo com suas necessidades:
-
+Para adicionar a tradução, basta adicionar o html abaixo:
 ```bash
 <div class="language">
 	<div style="display:none;" id="google_translate_element"></div>
