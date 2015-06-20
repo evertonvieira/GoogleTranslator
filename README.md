@@ -1,5 +1,5 @@
-# google_translator
-Customizando os botões de tradução do Google.
+# Google Translator
+Customizando o select de tradução do Google.
 
 Chamando scripts:
 ```bash
